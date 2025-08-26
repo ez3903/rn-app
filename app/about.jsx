@@ -3,7 +3,7 @@ import { Link } from "expo-router";
 const About = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>About Page</Text>
+      <Text style={styles.title}>About Page1</Text>
       <Link href="/" style={styles.link}>
         返回主页
       </Link>
