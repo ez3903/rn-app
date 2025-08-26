@@ -14,7 +14,7 @@ const RootLayout = () => {
         },
       }}
     >
-      <Stack.Screen name="index" options={{ title: "Home" }} />
+      <Stack.Screen name="index" options={{ title: "Homeab" }} />
       <Stack.Screen name="about" options={{ title: "About" }} />
       <Stack.Screen
         name="contact"
