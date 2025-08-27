@@ -1,9 +1,9 @@
-import { StyleSheet, Text, View, Image } from "react-native";
+import { StyleSheet } from "react-native";
 import { Link } from "expo-router";
 import ThemedView from "../components/ThemedView";
-import ThemedLogo from "../components/ThemdLogo";
+import ThemedLogo from "../components/ThemedLogo";
 import Spacer from "../components/Spacer";
-import ThemdText from "../components/ThemdText";
+import ThemedText from "../components/ThemedText";
 const Home = () => {
   return (
     <>
@@ -11,19 +11,22 @@ const Home = () => {
         <ThemedLogo />
         <Spacer height={20} />
 
-        <ThemdText style={[styles.title]} title={true}>
+        <ThemedText style={[styles.title]} title={true}>
           The Number 1
-        </ThemdText>
+        </ThemedText>
 
         <Spacer height={10} />
-        <ThemdText>Running RN App</ThemdText>
+        <ThemedText>Running RN App</ThemedText>
         <Spacer height={10} />
 
         <Link href="/login" style={styles.link}>
-          <ThemdText>登录</ThemdText>
+          <ThemedText>登录</ThemedText>
         </Link>
         <Link href="/register" style={styles.link}>
-          <ThemdText>注册</ThemdText>
+          <ThemedText>注册</ThemedText>
+        </Link>
+        <Link href="/profile" style={styles.link}>
+          <ThemedText>个人资料页</ThemedText>
         </Link>
       </ThemedView>
     </>

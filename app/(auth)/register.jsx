@@ -2,8 +2,8 @@ import { StyleSheet, Text } from "react-native";
 import { Link } from "expo-router";
 import ThemedView from "../../components/ThemedView";
 import Spacer from "../../components/Spacer";
-import ThemdText from "../../components/ThemdText";
-import ThemedButton from "../../components/ThemdButton";
+import ThemedText from "../../components/ThemedText";
+import ThemedButton from "../../components/ThemedButton";
 
 const Register = () => {
   const handleSubmit = () => {
@@ -13,9 +13,9 @@ const Register = () => {
   return (
     <ThemedView style={styles.container}>
       <Spacer />
-      <ThemdText title={true} style={styles.title}>
+      <ThemedText title={true} style={styles.title}>
         注册你的账号
-      </ThemdText>
+      </ThemedText>
 
       <ThemedButton onPress={handleSubmit}>
         <Text style={{ color: "#f2f2f2" }}>注册</Text>
@@ -24,7 +24,7 @@ const Register = () => {
       <Spacer height={100} />
 
       <Link href="./login">
-        <ThemdText style={{ textAlign: "center" }}>去登录</ThemdText>
+        <ThemedText style={{ textAlign: "center" }}>去登录</ThemedText>
       </Link>
     </ThemedView>
   );
