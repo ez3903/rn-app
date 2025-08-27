@@ -19,11 +19,11 @@ const Home = () => {
         <ThemdText>Running RN App</ThemdText>
         <Spacer height={10} />
 
-        <Link href="/about" style={styles.link}>
-          <ThemdText>跳转about</ThemdText>
+        <Link href="/login" style={styles.link}>
+          <ThemdText>登录</ThemdText>
         </Link>
-        <Link href="/contact" style={styles.link}>
-          <ThemdText>跳转contact</ThemdText>
+        <Link href="/register" style={styles.link}>
+          <ThemdText>注册</ThemdText>
         </Link>
       </ThemedView>
     </>
